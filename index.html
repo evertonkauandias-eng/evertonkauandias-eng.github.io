@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Everton Dias — Portfólio</title>
+  <meta name="description" content="Portfólio de Everton Dias, desenvolvedor full-stack em formação. HTML, CSS, JavaScript, Python, Node.js e SQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- ================= CAMADAS DE ANIMAÇÃO ================= -->
+<div class="loader" aria-hidden="true">
+  <div class="ld-panel ld-top"></div>
+  <div class="ld-panel ld-bot"></div>
+  <div class="ld-inner">
+    <span class="ld-mark">V</span>
+    <span class="ld-name">EVERTON DIAS</span>
+    <span class="ld-count">000</span>
+  </div>
+  <div class="ld-bar"><i></i></div>
+</div>
+<div class="curtain" aria-hidden="true"><span class="curtain-label"></span></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"><span></span></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <a href="#topo" class="logo"><span class="logo-mark">V</span>EVERTON</a>
+  <nav class="nav-links">
+    <a href="#projetos" data-sec="projetos">Projetos</a>
+    <a href="#sobre" data-sec="sobre">Sobre</a>
+    <a href="#trajetoria" data-sec="trajetoria">Trajetória</a>
+    <a href="#contato" data-sec="contato">Contato</a>
+  </nav>
+  <a href="#contato" class="nav-cta">Vamos conversar <span>↗</span></a>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="topo">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-top">
+    <p class="kicker red">Portfólio 2026<br><span class="muted">Front-end · Back-end · Banco de dados</span></p>
+    <p class="kicker"><span class="dot"></span> Aberto a estágio e oportunidades</p>
+  </div>
+
+  <h1 class="hero-word" aria-hidden="true">PORTFÓLIO</h1>
+
+  <div class="hero-photo">
+    <img src="foto.png" alt="Foto de Everton Dias" onerror="this.remove()">
+    <div class="photo-fallback" aria-hidden="true">
+      <svg viewBox="0 0 400 420" preserveAspectRatio="xMidYMax meet">
+        <defs>
+          <linearGradient id="sk" x1="0" x2="1"><stop offset="0" stop-color="#5a1410"/><stop offset=".35" stop-color="#1d1d20"/><stop offset="1" stop-color="#0f0f11"/></linearGradient>
+        </defs>
+        <g fill="url(#sk)">
+          <ellipse cx="200" cy="130" rx="78" ry="94"/>
+          <rect x="165" y="200" width="70" height="60" rx="20"/>
+          <path d="M40 420 C50 300 110 255 200 250 C290 255 350 300 360 420 Z"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-left reveal">
+    <p class="script">Olá, eu sou</p>
+    <h2 class="hero-name">EVERTON<span class="red">.</span></h2>
+    <p class="role">Desenvolvedor Full-Stack<br>em formação</p>
+    <p class="hero-text">Estudante de Análise e Desenvolvimento de Sistemas na UNIT. Construo aplicações web do front ao back-end, com JavaScript, Node.js, Python e SQL.</p>
+    <a href="#projetos" class="btn">Ver projetos <span>→</span></a>
+    <p class="tiny muted">◎ Sergipe, Brasil · aberto a remoto</p>
+  </div>
+
+  <div class="hero-stats reveal">
+    <p class="stats-lead"><span class="ring">↻</span> Aprendendo todo dia,<br>entregando código real.</p>
+    <div class="stat"><b data-count="3">0</b><span>projetos<br>publicados</span></div>
+    <div class="stat"><b data-count="6">0</b><span>tecnologias<br>no dia a dia</span></div>
+    <div class="stat"><b data-count="3" data-suffix="º">0</b><span>período de<br>ADS na UNIT</span></div>
+  </div>
+
+  <div class="hero-bottom">
+    <span class="scroll-hint"><i></i> Role para explorar</span>
+    <span class="muted tiny">Everton Dias · 2026</span>
+  </div>
+</section>
+
+<!-- ================= FAIXA ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="mq-track">
+    <span>Desenvolvedor Full-Stack</span><i>✦</i><span>HTML</span><i>✦</i><span>CSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Python</span><i>✦</i><span>Node.js</span><i>✦</i><span>SQL</span><i>✦</i>
+    <span>Desenvolvedor Full-Stack</span><i>✦</i><span>HTML</span><i>✦</i><span>CSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Python</span><i>✦</i><span>Node.js</span><i>✦</i><span>SQL</span><i>✦</i>
+  </div>
+</div>
+
+<!-- ================= PROJETOS ================= -->
+<section class="section" id="projetos">
+  <p class="kicker muted">01 — Projetos selecionados</p>
+  <div class="sec-head">
+    <h2 class="title-line">DO CÓDIGO PARA O MUNDO<span class="red">.</span></h2>
+    <a href="https://github.com/evertonkauandias-eng" target="_blank" rel="noopener" class="link-arrow">Ver GitHub →</a>
+  </div>
+
+  <div class="filters">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-filter="todos">Todos</button>
+      <button class="tab" data-filter="sistemas">Sistemas</button>
+      <button class="tab" data-filter="equipe">Em equipe</button>
+      <button class="tab" data-filter="ia">IA</button>
+    </div>
+    <label class="search">⌕ <input type="search" id="search" placeholder="Buscar projeto ou tecnologia"></label>
+  </div>
+
+  <div class="cards">
+    <!-- Card 1: FarmaEstoque -->
+    <a class="card reveal" href="https://github.com/evertonkauandias-eng/farmaestoque" target="_blank" rel="noopener" data-cat="sistemas" data-name="farmaestoque farmacia estoque medicamentos sistema javascript node sql">
+      <div class="mock mock-green">
+        <div>
+          <small>Sistema · Farmácia</small>
+          <p class="serif">Estoque sob<br>controle.</p>
+          <small class="muted">Medicamentos, validade<br>e reposição num só lugar.</small>
+          <span class="pill">Ver no GitHub</span>
+        </div>
+        <div class="phone"><i></i><i class="g"></i><i></i><i class="g"></i><i></i></div>
+      </div>
+      <footer><b class="num">01</b><div><h3>FarmaEstoque</h3><p>Controle de estoque · 2026</p></div><span>↗</span></footer>
+    </a>
+
+    <!-- Card 2: Residência -->
+    <a class="card reveal" href="https://github.com/MattR-Motta/Projeto-Residencia" target="_blank" rel="noopener" data-cat="equipe" data-name="residencia de software unit squad 55 react vite javascript css equipe">
+      <div class="mock mock-chart">
+        <div class="ch-head"><small>Residência de Software I</small><b>Squad 55</b><span class="pill orange">React + Vite</span></div>
+        <div class="bars"><i style="--h:40%"></i><i style="--h:55%"></i><i style="--h:48%"></i><i style="--h:70%"></i><i style="--h:62%"></i><i style="--h:80%"></i><i style="--h:58%"></i><i style="--h:74%"></i><i style="--h:66%"></i><i style="--h:90%"></i><i style="--h:84%"></i><i style="--h:95%"></i></div>
+        <div class="rows"><i></i><i></i><i></i></div>
+      </div>
+      <footer><b class="num">02</b><div><h3>Projeto Residência</h3><p>UNIT · Em equipe · 2026</p></div><span>↗</span></footer>
+    </a>
+
+    <!-- Card 3: PolíciaStudy AI -->
+    <article class="card reveal" data-cat="ia" data-name="policiastudy ai plataforma estudo concurso ia typescript node">
+      <div class="mock mock-chat">
+        <div class="m-side"><i class="act"></i><i></i><i></i><i></i></div>
+        <div class="m-main">
+          <div class="m-bar"></div>
+          <div class="bubble">Qual o prazo da prisão temporária em crimes hediondos?</div>
+          <div class="bubble red-b">30 dias, prorrogáveis por mais 30 (Lei 8.072/90).</div>
+          <div class="m-input"><span></span></div>
+        </div>
+        <div class="m-panel">
+          <small>Desempenho</small><b>78%</b>
+          <svg viewBox="0 0 100 30"><polyline points="0,26 15,22 30,24 45,15 60,17 75,9 100,4" /></svg>
+          <div class="rows"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <footer><b class="num">03</b><div><h3>PolíciaStudy AI</h3><p>Plataforma de estudo com IA · 2026</p></div><span>↗</span></footer>
+    </article>
+  </div>
+  <p class="empty muted" hidden>Nenhum projeto encontrado.</p>
+
+  <!-- Ferramentas -->
+  <div class="tools reveal">
+    <p class="kicker muted">Ferramentas<br><span>As tecnologias do dia a dia</span></p>
+    <div class="tool-row">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="HTML" title="HTML">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="CSS" title="CSS">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt="SQL" title="SQL">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" title="React">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="Git" title="Git">
+    </div>
+  </div>
+</section>
+
+<!-- ================= RASCUNHO -> AO AR ================= -->
+<section class="section split" id="processo">
+  <div class="split-text reveal">
+    <p class="kicker muted">02 — Por trás da tela</p>
+    <h2 class="big">DO RASCUNHO<span class="red">.</span><br><span class="red">AO AR.</span></h2>
+    <p class="muted">Toda tela começa como rascunho e termina como produto funcionando. Arraste a linha vermelha para ver as duas versões lado a lado.</p>
+    <p class="tiny muted">Wireframe · Interface · Back-end · Banco de dados</p>
+  </div>
+
+  <div class="compare reveal" id="compare">
+    <!-- Versão final -->
+    <div class="app final">
+      <div class="a-side"><b>PAINEL</b><i class="act"></i><i></i><i></i><i></i></div>
+      <div class="a-chat">
+        <div class="a-head"><span class="av"></span> Assistente <small>● online</small></div>
+        <div class="bubble">Quantas caixas de dipirona ainda temos?</div>
+        <div class="bubble red-b">Restam 14 caixas. 3 vencem em 30 dias. ⚠️<br>Sugiro repor 40 unidades.</div>
+        <div class="a-input">Digite uma mensagem… <span>➤</span></div>
+      </div>
+      <div class="a-panel">
+        <small>Itens em estoque</small><b>1.248</b>
+        <svg viewBox="0 0 100 30"><polyline points="0,27 12,22 24,24 36,18 48,20 60,12 72,14 84,7 100,3" /></svg>
+        <small>Movimentações</small>
+        <div class="order"><span>Entrada</span><em class="ok">+120</em></div>
+        <div class="order"><span>Saída</span><em class="wait">−36</em></div>
+        <div class="order"><span>Entrada</span><em class="ok">+48</em></div>
+        <div class="toggle-row">Alertas <span class="tg"></span></div>
+      </div>
+    </div>
+    <!-- Wireframe (por cima, recortado) -->
+    <div class="app wire" id="wire">
+      <div class="a-side"><b>RASCUNHO</b><i></i><i></i><i></i><i></i></div>
+      <div class="a-chat">
+        <div class="a-head"><span class="av"></span><i class="ln w40"></i></div>
+        <div class="bubble"><i class="ln w80"></i></div>
+        <div class="bubble right"><i class="ln w90"></i><i class="ln w60"></i></div>
+        <p class="note">resposta do sistema ↗</p>
+        <div class="a-input"><i class="ln w50"></i></div>
+      </div>
+      <div class="a-panel"><i class="ln w50"></i><i class="ln w80 thick"></i><div class="box"></div><i class="ln w40"></i><i class="ln w90"></i><i class="ln w90"></i></div>
+    </div>
+    <div class="handle" id="handle"><span>‹ ›</span></div>
+    <p class="cap left">Arraste para ver o processo</p>
+    <p class="cap right">Produto final</p>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section class="section" id="sobre">
+  <p class="kicker muted">03 — Sobre mim</p>
+  <div class="sec-head about-head">
+    <h2 class="big">MAIS QUE CÓDIGO<span class="red">.</span><br>SOLUÇÕES QUE <span class="red">FUNCIONAM.</span></h2>
+    <p class="muted about-intro reveal">Sou o Everton Dias, estudante de Análise e Desenvolvimento de Sistemas na UNIT. Gosto de entender o problema antes de escrever a primeira linha e de ver o projeto rodando de ponta a ponta: interface, servidor e banco de dados.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="reveal">
+      <h4>Formação &amp; Especialidade</h4>
+      <p class="label red">Formação</p>
+      <div class="edu"><div><b>Análise e Desenvolvimento de Sistemas</b><small>UNIT · Universidade Tiradentes</small></div><span>Cursando · 3º período</span></div>
+      <div class="edu"><div><b>Residência de Software I</b><small>UNIT · Squad 55</small></div><span>2026</span></div>
+      <p class="label red">Tecnologias</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Node.js</span><span>SQL</span><span>React</span><span>Git</span></div>
+    </div>
+
+    <div class="reveal">
+      <h4>Como eu trabalho</h4>
+      <ol class="steps">
+        <li><b>01</b><div><strong>Entender</strong><span>Descubro o problema real antes de pensar na solução.</span></div></li>
+        <li><b>02</b><div><strong>Desenhar</strong><span>Fluxos e telas em rascunho antes de qualquer código.</span></div></li>
+        <li><b>03</b><div><strong>Construir</strong><span>Front-end, back-end e banco de dados, passo a passo.</span></div></li>
+        <li><b>04</b><div><strong>Testar</strong><span>Verifico se tudo funciona como deveria, de verdade.</span></div></li>
+        <li><b>05</b><div><strong>Publicar</strong><span>Código versionado no GitHub e projeto no ar.</span></div></li>
+      </ol>
+    </div>
+
+    <blockquote class="quote reveal">
+      <span class="q">“</span>
+      <p>Código bom é o que resolve um problema de verdade.</p>
+      <cite>Everton Dias</cite>
+      <small>Desenvolvedor Full-Stack<br>em formação</small>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ================= TRAJETÓRIA ================= -->
+<section class="section" id="trajetoria">
+  <p class="kicker muted">04 — Trajetória</p>
+  <div class="sec-head">
+    <h2 class="title-line">SEMPRE APRENDENDO. SEMPRE CONSTRUINDO<span class="red">.</span></h2>
+    <span class="link-arrow muted">Estudos &amp; projetos</span>
+  </div>
+
+  <div class="traj">
+    <div class="acc">
+      <details open class="reveal"><summary><span class="yr">2026</span><div><b>Residência de Software I</b><small>UNIT · Squad 55 · projeto em equipe</small></div><i>+</i></summary>
+        <p>Desenvolvimento em equipe de uma aplicação web com React e Vite: componentes reutilizáveis, rotas, estilos e versionamento com Git.</p></details>
+      <details class="reveal"><summary><span class="yr">2026</span><div><b>FarmaEstoque</b><small>Projeto pessoal · sistema web</small></div><i>+</i></summary>
+        <p>Sistema para controle de estoque de farmácia: cadastro de medicamentos, entradas e saídas, e acompanhamento de validade.</p></details>
+      <details class="reveal"><summary><span class="yr">2026</span><div><b>PolíciaStudy AI</b><small>Projeto pessoal · plataforma com IA</small></div><i>+</i></summary>
+        <p>Plataforma de estudos para concursos policiais com inteligência artificial, banco de dados e deploy na nuvem.</p></details>
+      <details class="reveal"><summary><span class="yr">Em curso</span><div><b>Análise e Desenvolvimento de Sistemas</b><small>UNIT · 3º período</small></div><i>+</i></summary>
+        <p>Base em lógica de programação, banco de dados, desenvolvimento web e engenharia de software.</p></details>
+    </div>
+
+    <aside class="live reveal">
+      <p class="kicker muted">Projetos no GitHub</p>
+      <h3 class="big sm">NO CÓDIGO<span class="red">.</span><br><span class="red">NO AR.</span></h3>
+      <a href="https://github.com/evertonkauandias-eng/farmaestoque" target="_blank" rel="noopener"><span class="red">●</span><div><b>FarmaEstoque</b><small>Sistema · 2026</small></div>↗</a>
+      <a href="https://github.com/MattR-Motta/Projeto-Residencia" target="_blank" rel="noopener"><span class="red">●</span><div><b>Projeto Residência</b><small>Em equipe · 2026</small></div>↗</a>
+      <a href="https://github.com/evertonkauandias-eng" target="_blank" rel="noopener"><span class="red">●</span><div><b>Todos os repositórios</b><small>@evertonkauandias-eng</small></div>↗</a>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="section contact" id="contato">
+  <div class="contact-grid">
+    <div class="reveal">
+      <p class="kicker muted">05 — Estágio, freelas ou projetos</p>
+      <h2 class="big">VAMOS<br>CONSTRUIR<br>JUNTOS<span class="red">.</span></h2>
+      <p class="muted">Estou aberto a estágio, projetos e boas conversas sobre tecnologia. Me chama em qualquer um dos canais.</p>
+      <a href="https://wa.me/5579988386640" target="_blank" rel="noopener" class="btn ghost"><span class="circ">↗</span> Começar uma conversa</a>
+    </div>
+
+    <ul class="channels reveal">
+      <li><a href="mailto:evertonkauandias@gmail.com"><span class="ic">✉</span><div><small>E-mail</small><b>evertonkauandias@gmail.com</b></div>›</a></li>
+      <li><a href="https://wa.me/5579988386640" target="_blank" rel="noopener"><span class="ic">◔</span><div><small>WhatsApp</small><b>(79) 98838-6640</b></div>›</a></li>
+      <li><a href="https://www.linkedin.com/in/evertondiass/" target="_blank" rel="noopener"><span class="ic">in</span><div><small>LinkedIn</small><b>/in/evertondiass</b></div>›</a></li>
+      <li><a href="https://github.com/evertonkauandias-eng" target="_blank" rel="noopener"><span class="ic">⌥</span><div><small>GitHub</small><b>@evertonkauandias-eng</b></div>›</a></li>
+      <li><a href="https://www.instagram.com/evertonkauan0/" target="_blank" rel="noopener"><span class="ic">◎</span><div><small>Instagram</small><b>@evertonkauan0</b></div>›</a></li>
+    </ul>
+
+    <div class="live-card reveal">
+      <div class="lc-top"><small>Feito por Everton Dias</small><small>2026 ↗</small></div>
+      <p class="big sm">FEITO<br><span class="red">NA MÃO.</span></p>
+      <span class="play">▶</span>
+      <p class="tiny muted lc-cap">Este site · HTML, CSS e JavaScript puro, sem template</p>
+    </div>
+  </div>
+
+  <form class="quick-form reveal" id="form">
+    <input type="text" placeholder="Me conta da sua ideia ou vaga" required>
+    <button type="submit" aria-label="Enviar">+</button>
+  </form>
+  <p class="form-msg red tiny" hidden>Abrindo seu e-mail para enviar a mensagem…</p>
+</section>
+
+</main>
+
+<div class="foot-big" aria-hidden="true">EVERTON DIAS</div>
+
+<footer class="foot">
+  <b class="logo-foot">EVERTON DIAS</b>
+  <small class="muted">© 2026 Everton Dias · Todos os direitos reservados</small>
+  <div class="socials">
+    <a href="https://github.com/evertonkauandias-eng" target="_blank" rel="noopener" aria-label="GitHub">⌥</a>
+    <a href="https://www.linkedin.com/in/evertondiass/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    <a href="https://www.instagram.com/evertonkauan0/" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+    <a href="mailto:evertonkauandias@gmail.com" aria-label="E-mail">✉</a>
+    <a href="#topo" aria-label="Voltar ao topo">↑</a>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
