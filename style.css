@@ -240,7 +240,7 @@ details[open] summary i{transform:rotate(45deg);color:var(--red)}
 
 /* ---------- CONTATO ---------- */
 .contact{background:radial-gradient(70% 80% at 85% 30%,rgba(227,38,28,.12),transparent 70%)}
-.contact-grid{display:grid;grid-template-columns:1.1fr 1fr .9fr;gap:44px;align-items:start}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
 .contact .big{margin:12px 0 18px;font-size:clamp(44px,4.6vw,72px)}
 .live-card.reveal.in{transform:rotate(4deg)}
 .live-card.reveal.in:hover{transform:rotate(0) scale(1.02)}

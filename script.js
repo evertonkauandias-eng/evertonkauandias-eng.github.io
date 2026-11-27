@@ -444,12 +444,14 @@ function cinema() {
      CONTATO
      ===================================================== */
   const lc = $('.live-card');
+  if (lc) {
   gsap.set(lc, { rotation: 4 });
   gsap.from(lc, {
     y: 160, rotation: 22, opacity: 0, duration: 1.6, ease: 'expo.out',
     scrollTrigger: { trigger: lc, start: 'top 92%' },
     onComplete: () => gsap.to(lc, { y: -12, rotation: 2, duration: 3.2, ease: 'sine.inOut', yoyo: true, repeat: -1 }),
   });
+  }
 
   /* ---------- nome gigante do rodapé ---------- */
   const fb = split($('.foot-big'), 'chars');
